@@ -1,0 +1,92 @@
+{
+    "pizzas": [
+      {
+        "id": 0,
+        "imageUrl": "https://4.downloader.disk.yandex.ru/preview/3803c42b17d8de335ee10551022d37f1cd9840ef21c84c1c8114ea4f30597b89/inf/73BnfYGj1YXB0pp0uR1GWWUlYric33CLfO26ZaoR47TReXQHiXl8E9D19DftKEQOm7efeCyo8LJXdtTOfjm8mg%3D%3D?uid=344471134&filename=bbq.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=344471134&tknv=v2&size=1894x853",
+        "name": "Колбаски Барбекю",
+        "description": "Острая чоризо, соус барбекю, томаты, красный лук, моцарелла, томатный соус",
+        "types": [0, 1],
+        "sizes": [25, 30, 40],
+        "price": 395,
+        "category": 0,
+        "rating": 3
+      },
+      {
+        "id": 1,
+        "imageUrl": "https://4.downloader.disk.yandex.ru/preview/632c3884bff61ea504fd7e95778577a485abe15838776dfddf4a18e1def6da54/inf/lrntkjKpNCFq0YYo_ZPUYKxjAQvapr5l96guzdh7VszLGb5q_pD_MZ2fBgzt6yME3PKJIArl0HTKZ3yVg1dS_A%3D%3D?uid=344471134&filename=pepe.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=344471134&tknv=v2&size=1894x853",
+        "name": "Пепперони",
+        "description": "Пикантная пепперони, увеличенная порция моцареллы, томатный соус",
+        "types": [0],
+        "sizes": [25, 40],
+        "price": 350,
+        "category": 0,
+        "rating": 5
+      },
+      {
+        "id": 2,
+        "imageUrl": "https://1.downloader.disk.yandex.ru/preview/72202c7e1ac4faf80f467e82fd8c229c5e3e9a476cd5faa2c50d01775a595e3e/inf/YDsTCbTq3U7xJekA4gZbnde3iGhKpAW419hnuy3gXScHLsdQHC9eUfnBrAEgd1uMmSGD1h0No_UnGKKb2leopw%3D%3D?uid=344471134&filename=mexico.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=344471134&tknv=v2&size=1894x853",
+        "name": "Мексиканская",
+        "description": "Острый цыпленок, острый перец халапеньо, соус сальса, томаты, сладкий перец, красный лук, моцарелла, томатный соус",
+        "types": [0],
+        "sizes": [25, 40],
+        "price": 450,
+        "category": 3,
+        "rating": 4
+      },
+      {
+        "id": 3,
+        "imageUrl": "https://1.downloader.disk.yandex.ru/preview/46d37a51f35dfdb34a0871830bee3514c05252aaccd13c55c3e972305bdcf2eb/inf/b1IdYwtIEs-28raNAnKznGqV36svSlndxdQHRgyj3L0EzkatFUGUiFuhhHp1DzpoS0WpOA5xBhQNGkQIQNePwg%3D%3D?uid=344471134&filename=arriva.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=344471134&tknv=v2&size=1894x853",
+        "name": "Аррива!",
+        "description": "Цыпленок, острая чоризо, соус бургер, сладкий перец, красный лук, томаты, моцарелла, соус ранч, чеснок",
+        "types": [1],
+        "sizes": [25, 30, 40],
+        "price": 495,
+        "category": 3,
+        "rating": 2
+      },
+      {
+        "id": 4,
+        "imageUrl": "https://2.downloader.disk.yandex.ru/preview/c579da1a04e4d1e7ad21dd540e739543e393a01f92181298a2bf590e20f9f69d/inf/GSa_wSxqhJjGA_j98HTrZXA8hE3ftO7mCtptwkaQ9WvRXU2I7khuduqinOF2blFAmHtzxy87-70l-1uwJOgLiA%3D%3D?uid=344471134&filename=cheeseburger-pizza.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=344471134&tknv=v2&size=1894x853",
+        "name": "Чизбургер-пицца",
+        "description": "Мясной соус болоньезе, соус бургер, соленые огурчики, томаты, красный лук, моцарелла",
+        "types": [0, 1],
+        "sizes": [25, 30, 40],
+        "price": 395,
+        "category": 0,
+        "rating": 2
+      },
+      {
+        "id": 5,
+        "imageUrl": "https://2.downloader.disk.yandex.ru/preview/801be9c97ff099f5bf4966a72677f305abad771bac86807d0b8c58ac0dd676aa/inf/gsAZqgooZZEytU-meL1d7nA8hE3ftO7mCtptwkaQ9WuCbTyJK8Cle4EaFWkvg6HQuLYY_9jyrsXW-W_ZG-xK5Q%3D%3D?uid=344471134&filename=cheese.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=344471134&tknv=v2&size=1894x853",
+        "name": "Сырная",
+        "description": "Моцарелла, сыры чеддер и пармезан, соус альфредо",
+        "types": [0],
+        "sizes": [25, 30, 40],
+        "price": 295,
+        "category": 1,
+        "rating": 5
+      },
+      {
+        "id": 6,
+        "imageUrl": "https://3.downloader.disk.yandex.ru/preview/e2de9092f3b5d671a4700f754a4c71f498e721ffba652d5a33c462d2e12c5e17/inf/_M9QEDgUWTDPrjRWYA7CS1xITVZ6BXW2dTvMg7OHGRu3mi78JVTVeQjX3SkTiVScNvYFj2p-6fQPa3drQHEDpw%3D%3D?uid=344471134&filename=vegetables.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=344471134&tknv=v2&size=1894x853",
+        "name": "Овощи и грибы",
+        "description": "Шампиньоны, томаты, сладкий перец, красный лук, маслины, кубики брынзы, моцарелла, томатный соус, итальянские травы",
+        "types": [0, 1],
+        "sizes": [25, 30, 40],
+        "price": 395,
+        "category": 1,
+        "rating": 3
+      },
+      {
+        "id": 7,
+        "imageUrl": "https://3.downloader.disk.yandex.ru/preview/a7660857ed93a07e75ce973d8c6f151bd5797cc07c766714b2d71a6d2838bc05/inf/D8N-o438ogsocwmy4FngvYsOaPeWuB_ZbwfjnFPTfdCBwupoTmhJFHuq7e8jo44ZqL4y1o36vJoPU0oCv9mgGQ%3D%3D?uid=344471134&filename=chick.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=344471134&tknv=v2&size=1894x853",
+        "name": "Сырный цыпленок",
+        "description": "Цыпленок, моцарелла, сыры чеддер и пармезан, сырный соус, томаты, соус альфредо, чеснок",
+        "types": [0, 1],
+        "sizes": [25, 30, 40],
+        "price": 450,
+        "category": 0,
+        "rating": 4
+      }
+    ]
+  }

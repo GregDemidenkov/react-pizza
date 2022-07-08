@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Pizza-html</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <div class="container">
+                <div class="label">
+                    <div class="icon"></div>
+                    <div class="name">
+                        <h1>REACT PIZZA</h1>
+                        <p>самая вкусная пицца во вселенной</p>
+                    </div>
+                </div>
+                <a href="cart-full.html">
+                    <div class="cart">
+                        <p>0 ₽</p>
+                        <div style="width: 1px; height: 25px; background-color: rgba(255, 255, 255, 0.25);" class="vertical-line"></div>
+                        <div class="container">
+                            <img src="./img/cart1.png" alt="">
+                            <p>0</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="line"></div>
+        </div>
+        <div class="category">
+            <div class="container">
+                <div class="list">
+                    <ul>
+                        <li class = "active">Все</li>
+                        <li>Мясные</li>
+                        <li>Вегетарианская</li>
+                        <li>Гриль</li>
+                        <li>Острые</li>
+                        <li>Закрытые</li>
+                    </ul>
+                </div>
+                <div class="sort">
+                    <img src="./img/bar.png" alt="">
+                    <p>Сортировка по:</p>
+                    <a href="#">по популярности</a>
+                    <ul>
+                        <li class="active">по популярности</li>
+                        <li>по цене</li>
+                        <li>по алфавиту</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="container">
+                <h2>Все пиццы</h2>
+                <ul>
+                    <li>
+                        <img src="./img/bbq.png" alt="">
+                        <div class="info">
+                            <p>Острая чоризо, соус барбекю, томаты, красный лук, моцарелла, томатный соус</p>
+                        </div>
+                        <h3>Колбаски Барбекю</h3>
+                        <div class="characteristic">
+                            <ul class="dough">
+                                <li class="active">тонкое</li>
+                                <li>традиционное</li>
+                            </ul>
+                            <ul class="size">
+                                <li class="active">25 см</li>
+                                <li>30 см</li>
+                                <li>40 см</li>
+                            </ul>
+                        </div>
+                        <div class="priceANDcart">
+                            <p class="price">от <span>395</span> ₽</p>
+                            <div class="button">
+                                <img src="./img/plus-noactive.png" alt="">
+                                <p class="toCart">Добавить</p>
+                                <p class="countElement">2</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/pepe.png" alt="">
+                        <div class="info">
+                            <p>Пикантная пепперони, увеличенная порция моцареллы, томатный соус</p>
+                        </div>
+                        <h3>Пепперони</h3>
+                        <div class="characteristic">
+                            <ul class="dough">
+                                <li class="active">тонкое</li>
+                                <li>традиционное</li>
+                            </ul>
+                            <ul class="size">
+                                <li class="active">25 см</li>
+                                <li>30 см</li>
+                                <li>40 см</li>
+                            </ul>
+                        </div>
+                        <div class="priceANDcart">
+                            <p class="price">от <span>350</span> ₽</p>
+                            <div class="button">
+                                <img src="./img/plus-noactive.png" alt="">
+                                <p class="toCart">Добавить</p>
+                                <p class="countElement">2</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/mexico.png" alt="">
+                        <div class="info">
+                            <p>Острый цыпленок, острый перец халапеньо, соус сальса, томаты, сладкий перец, красный лук, моцарелла, томатный соус</p>
+                        </div>                     
+                        <h3>Мексиканская</h3>
+                        <div class="characteristic">
+                            <ul class="dough">
+                                <li class="active">тонкое</li>
+                                <li>традиционное</li>
+                            </ul>
+                            <ul class="size">
+                                <li class="active">25 см</li>
+                                <li>30 см</li>
+                                <li>40 см</li>
+                            </ul>
+                        </div>
+                        <div class="priceANDcart">
+                            <p class="price">от <span>450</span> ₽</p>
+                            <div class="button">
+                                <img src="./img/plus-noactive.png" alt="">
+                                <p class="toCart">Добавить</p>
+                                <p class="countElement">2</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/arriva.png" alt="">
+                        <div class="info">
+                            <p>Цыпленок, острая чоризо, соус бургер, сладкий перец, красный лук, томаты, моцарелла, соус ранч, чеснок</p>
+                        </div>                        
+                        <h3>Аррива!</h3>
+                        <div class="characteristic">
+                            <ul class="dough">
+                                <li class="active">тонкое</li>
+                                <li>традиционное</li>
+                            </ul>
+                            <ul class="size">
+                                <li class="active">25 см</li>
+                                <li>30 см</li>
+                                <li>40 см</li>
+                            </ul>
+                        </div>
+                        <div class="priceANDcart">
+                            <p class="price">от <span>495</span> ₽</p>
+                            <div class="button">
+                                <img src="./img/plus-noactive.png" alt="">
+                                <p class="toCart">Добавить</p>
+                                <p class="countElement">2</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/cheeseburger-pizza.png" alt=""> 
+                        <div class="info">
+                            <p>Мясной соус болоньезе, соус бургер, соленые огурчики, томаты, красный лук, моцарелла</p>
+                        </div>                       
+                        <h3>Чизбургер-пицца</h3>
+                        <div class="characteristic">
+                            <ul class="dough">
+                                <li class="active">тонкое</li>
+                                <li>традиционное</li>
+                            </ul>
+                            <ul class="size">
+                                <li class="active">25 см</li>
+                                <li>30 см</li>
+                                <li>40 см</li>
+                            </ul>
+                        </div>
+                        <div class="priceANDcart">
+                            <p class="price">от <span>395</span> ₽</p>
+                            <div class="button">
+                                <img src="./img/plus-noactive.png" alt="">
+                                <p class="toCart">Добавить</p>
+                                <p class="countElement">2</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/cheese.png" alt="">
+                        <div class="info">
+                            <p>Моцарелла, сыры чеддер и пармезан, соус альфредо</p>
+                        </div>                       
+                        <h3>Сырная</h3>
+                        <div class="characteristic">
+                            <ul class="dough">
+                                <li class="active">тонкое</li>
+                                <li>традиционное</li>
+                            </ul>
+                            <ul class="size">
+                                <li class="active">25 см</li>
+                                <li>30 см</li>
+                                <li>40 см</li>
+                            </ul>
+                        </div>
+                        <div class="priceANDcart">
+                            <p class="price">от <span>295</span> ₽</p>
+                            <div class="button">
+                                <img src="./img/plus-noactive.png" alt="">
+                                <p class="toCart">Добавить</p>
+                                <p class="countElement">2</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/vegetables.png" alt="">
+                        <div class="info">
+                            <p>Шампиньоны, томаты, сладкий перец, красный лук, маслины, кубики брынзы, моцарелла, томатный соус, итальянские травы</p>
+                        </div>
+                        <h3>Овощи и грибы</h3>
+                        <div class="characteristic">
+                            <ul class="dough">
+                                <li class="active">тонкое</li>
+                                <li>традиционное</li>
+                            </ul>
+                            <ul class="size">
+                                <li class="active">25 см</li>
+                                <li>30 см</li>
+                                <li>40 см</li>
+                            </ul>
+                        </div>
+                        <div class="priceANDcart">
+                            <p class="price">от <span>395</span> ₽</p>
+                            <div class="button">
+                                <img src="./img/plus-noactive.png" alt="">
+                                <p class="toCart">Добавить</p>
+                                <p class="countElement">2</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="./img/chick.png" alt="">
+                        <div class="info">
+                            <p>Цыпленок, моцарелла, сыры чеддер и пармезан, сырный соус, томаты, соус альфредо, чеснок</p>
+                        </div>
+                        <h3>Сырный цыпленок</h3>
+                        <div class="characteristic">
+                            <ul class="dough">
+                                <li class="active">тонкое</li>
+                                <li>традиционное</li>
+                            </ul>
+                            <ul class="size">
+                                <li class="active">25 см</li>
+                                <li>30 см</li>
+                                <li>40 см</li>
+                            </ul>
+                        </div>
+                        <div class="priceANDcart">
+                            <p class="price">от <span>450</span> ₽</p>
+                            <div class="button">
+                                <img src="./img/plus-noactive.png" alt="">
+                                <p class="toCart">Добавить</p>
+                                <p class="countElement">2</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
